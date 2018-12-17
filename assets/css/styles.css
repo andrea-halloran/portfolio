@@ -1,0 +1,29 @@
+.card{
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+}
+
+.work{
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+}
+
+h3{
+    padding-top : 20px;
+    text-align: center; 
+    color: black; 
+}
+
+form{
+    width: 800px; 
+    height: 900px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.btn.btn-primary{
+    background-color: lightgrey;
+    color: black; 
+}
