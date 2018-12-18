@@ -1,0 +1,73 @@
+/*  SECTIONS  */
+.section {
+	clear: both !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block !important;
+	float:left !important;
+	margin: 1% 0 1% 1.6% !important;
+}
+.col:first-child { margin-left: 0 !important;  }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:"" !important; display:table !important; }
+.group:after { clear:both !important;}
+.group { zoom:1 !important; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100% !important; }
+.span_2_of_3 { width: 66.13% !important; }
+.span_1_of_3 { width: 32.26% !important; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px ) {
+	.col {  margin: 1% 0 1% 0% !important; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100% !important; }
+}
+
+.centerThis{
+    margin: auto; 
+    width: 80%; 
+}
+
+.work{
+    text-align: center; 
+    
+}
+
+form{
+    width: 800px; 
+    height: 900px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+/* .overflow-wrap {
+    overflow-wrap: break-word;
+  }
+   */
+
+.btn.btn-primary{
+    background-color: lightgrey;
+    color: black; 
+}
+
+/* .card{
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+} */
+
+/* 
+.work{
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+}
+
+ */
