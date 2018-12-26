@@ -1,3 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* general */
+  
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 20px;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+  }
+  
+  h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+  }
+  
+  h2,
+  h3 {
+    font-size: 22px;
+  }
+
+  /* main */
+  
+  #main-container {
+    /* padding-top: 130px; */
+    min-height: calc(100vh - 70px);
+  }
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  /* portfolio page */
+  
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+  
+/* Project */
 /*  SECTIONS  */
 .section {
 	clear: both !important;
@@ -40,6 +144,8 @@
     
 }
 
+
+/* Contact */
 form{
     width: 800px; 
     height: 900px; 
@@ -57,17 +163,48 @@ form{
     color: black; 
 }
 
-/* .card{
-    margin-left: auto; 
-    margin-right: auto; 
-    text-align: center; 
-} */
+@media only screen and (max-width: 980px){
+    body {
+      
+    }
+    
+  }
+  
+  @media only screen and (max-width:768px){
+    body {
+    
+    }
 
-/* 
-.work{
-    margin-left: auto; 
-    margin-right: auto; 
-    text-align: center; 
-}
+  }
+  
+  @media only screen and (max-width: 640px){
+    body {
+     
+    }
+   
+    .col{
+      width:100%; 
+    }
+      
+  } 
 
- */
+  /* .card-bio {
+    border-radius: 50%; 
+ }
+ 
+ .bio-container {
+     float: center;
+     height: 500px; 
+     width: 1200px; 
+ }
+ 
+ .picture{
+     float: left; 
+ }
+ 
+ .card{
+     position: relative;
+     left: 350px; 
+     top: -300px;  
+     width: 300px; 
+ } */
