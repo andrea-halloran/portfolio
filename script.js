@@ -35,6 +35,7 @@ var message = "";
             dateAdded: firebase.database.ServerValue.TIMESTAMP
         })
     }); 
+
     // database.ref("/Contact").on("child_added", function(snapshot) {
     //     // storing the snapshot.val() in a variable for convenience
     //     var sv = snapshot.val();
